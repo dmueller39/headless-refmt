@@ -1,0 +1,20 @@
+{
+  "name": "headless-refmt",
+  "version": "1.0.0",
+  "description": "An objective c wrapper for the refmt library",
+  "main": "index.js",
+  "repository": "http://github.com/dmueller39/headless-refmt",
+  "author": "dmueller39",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "reason": "^3.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.8.2",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "bundle": "bundle.js"
+}
